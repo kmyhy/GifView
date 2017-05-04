@@ -13,6 +13,17 @@
 		126295CF1EBAF5D400800099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126295CD1EBAF5D400800099 /* Main.storyboard */; };
 		126295D11EBAF5D400800099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126295D01EBAF5D400800099 /* Assets.xcassets */; };
 		126295D41EBAF5D400800099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126295D21EBAF5D400800099 /* LaunchScreen.storyboard */; };
+		126295E61EBAF60E00800099 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295DC1EBAF60E00800099 /* 1.png */; };
+		126295E71EBAF60E00800099 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295DD1EBAF60E00800099 /* 2.png */; };
+		126295E81EBAF60E00800099 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295DE1EBAF60E00800099 /* 3.png */; };
+		126295E91EBAF60E00800099 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295DF1EBAF60E00800099 /* 4.png */; };
+		126295EA1EBAF60E00800099 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295E01EBAF60E00800099 /* 5.png */; };
+		126295EB1EBAF60E00800099 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295E11EBAF60E00800099 /* 6.png */; };
+		126295EC1EBAF60E00800099 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295E21EBAF60E00800099 /* 7.png */; };
+		126295ED1EBAF60E00800099 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295E31EBAF60E00800099 /* 8.png */; };
+		126295EE1EBAF60E00800099 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295E41EBAF60E00800099 /* 9.png */; };
+		126295EF1EBAF60E00800099 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 126295E51EBAF60E00800099 /* 10.png */; };
+		126295F21EBAF62000800099 /* GifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 126295F11EBAF62000800099 /* GifView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,18 @@
 		126295D01EBAF5D400800099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126295D31EBAF5D400800099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		126295D51EBAF5D400800099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126295DC1EBAF60E00800099 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		126295DD1EBAF60E00800099 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		126295DE1EBAF60E00800099 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		126295DF1EBAF60E00800099 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		126295E01EBAF60E00800099 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		126295E11EBAF60E00800099 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		126295E21EBAF60E00800099 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		126295E31EBAF60E00800099 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		126295E41EBAF60E00800099 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		126295E51EBAF60E00800099 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		126295F01EBAF62000800099 /* GifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifView.h; sourceTree = "<group>"; };
+		126295F11EBAF62000800099 /* GifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 		126295C31EBAF5D400800099 /* GifView */ = {
 			isa = PBXGroup;
 			children = (
+				126295DB1EBAF5D900800099 /* GifView */,
 				126295C71EBAF5D400800099 /* AppDelegate.h */,
 				126295C81EBAF5D400800099 /* AppDelegate.m */,
 				126295CA1EBAF5D400800099 /* ViewController.h */,
@@ -77,6 +101,25 @@
 				126295C51EBAF5D400800099 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		126295DB1EBAF5D900800099 /* GifView */ = {
+			isa = PBXGroup;
+			children = (
+				126295DC1EBAF60E00800099 /* 1.png */,
+				126295DD1EBAF60E00800099 /* 2.png */,
+				126295DE1EBAF60E00800099 /* 3.png */,
+				126295DF1EBAF60E00800099 /* 4.png */,
+				126295E01EBAF60E00800099 /* 5.png */,
+				126295E11EBAF60E00800099 /* 6.png */,
+				126295E21EBAF60E00800099 /* 7.png */,
+				126295E31EBAF60E00800099 /* 8.png */,
+				126295E41EBAF60E00800099 /* 9.png */,
+				126295E51EBAF60E00800099 /* 10.png */,
+				126295F01EBAF62000800099 /* GifView.h */,
+				126295F11EBAF62000800099 /* GifView.m */,
+			);
+			name = GifView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +180,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126295EF1EBAF60E00800099 /* 10.png in Resources */,
+				126295ED1EBAF60E00800099 /* 8.png in Resources */,
 				126295D41EBAF5D400800099 /* LaunchScreen.storyboard in Resources */,
+				126295E91EBAF60E00800099 /* 4.png in Resources */,
+				126295E61EBAF60E00800099 /* 1.png in Resources */,
+				126295EB1EBAF60E00800099 /* 6.png in Resources */,
+				126295E71EBAF60E00800099 /* 2.png in Resources */,
+				126295E81EBAF60E00800099 /* 3.png in Resources */,
+				126295EA1EBAF60E00800099 /* 5.png in Resources */,
+				126295EC1EBAF60E00800099 /* 7.png in Resources */,
+				126295EE1EBAF60E00800099 /* 9.png in Resources */,
 				126295D11EBAF5D400800099 /* Assets.xcassets in Resources */,
 				126295CF1EBAF5D400800099 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				126295CC1EBAF5D400800099 /* ViewController.m in Sources */,
+				126295F21EBAF62000800099 /* GifView.m in Sources */,
 				126295C91EBAF5D400800099 /* AppDelegate.m in Sources */,
 				126295C61EBAF5D400800099 /* main.m in Sources */,
 			);

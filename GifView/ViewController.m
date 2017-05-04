@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "GifView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet GifView *gifView;
 
 @end
 
@@ -25,5 +27,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)action:(id)sender {
+    _gifView.stopped = !_gifView.stopped;
+}
 
 @end
