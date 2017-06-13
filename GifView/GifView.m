@@ -43,15 +43,6 @@
     
     _gifArray = [NSArray arrayWithObjects:
                 [UIImage imageNamed:@"1"],
-                [UIImage imageNamed:@"2"],
-                [UIImage imageNamed:@"3"],
-                [UIImage imageNamed:@"4"],
-                [UIImage imageNamed:@"5"],
-                [UIImage imageNamed:@"6"],
-                [UIImage imageNamed:@"7"],
-                [UIImage imageNamed:@"8"],
-                [UIImage imageNamed:@"9"],
-                [UIImage imageNamed:@"10"],
                 nil];
     
     _pauseImage = _gifArray[0];
